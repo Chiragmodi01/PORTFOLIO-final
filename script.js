@@ -205,6 +205,18 @@ const projects2 = [
   }
 ];
 
+function validateForm() {
+  var name = document.getElementById("name").value;
+  var subject = document.getElementById("subject").value;
+  var message = document.getElementById("message").value;
+
+  if (name === "" || subject === "" || message === "") {
+      alert("All fields must be filled out");
+      return false;
+  }
+  return true;
+}
+
 const createCards = () => {
   projects.map((project) => {
     const projectCard = new Project({
