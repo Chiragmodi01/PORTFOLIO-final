@@ -40,6 +40,7 @@ let themeDots = document.getElementsByClassName("theme-dot");
 for (let theme = 0; themeDots.length > theme; theme++) {
   themeDots[theme].addEventListener("click", function () {
     let mode = this.dataset.mode;
+    alert(mode)
     setTheme(mode);
   });
 }
