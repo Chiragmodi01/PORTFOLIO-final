@@ -167,7 +167,7 @@ const projects = [
   {
     projectName: "Beluga UI",
     projectDescription:
-      "A component library, to help design your project faster and better. Built using Vanilla JavaScript and CSS.",
+      "A component library with easy integration into your website, Built using Vanilla JavaScript.",
     projectImage: "/images/projects/beluga.png",
     codeLink: "https://github.com/Chiragmodi01/BelugaUi",
     demoLink: "https://beluga-ui.netlify.app/"
@@ -175,7 +175,7 @@ const projects = [
   {
     projectName: "FlashTabs",
     projectDescription:
-      "A chrome extension to give your browser's default homepage, clean and modern look with FlashTabs Dashboard.",
+      "A chrome extension to give your browser's default homepage, clean and modern look.",
     projectImage: "/images/projects/flashtabs.png",
     codeLink: "https://github.com/Chiragmodi01/tab-extention",
     demoLink: "https://chrome.google.com/webstore/detail/flashtabs/igeijfhnknbfodmpipaafagjhgddlefn?utm_source=google&utm_medium=cpc&utm_campaign=20282050520&utm_content=151103784475&utm_term=extensions%20chrome&gclid=Cj0KCQjw9MCnBhCYARIsAB1WQVUjOoAhnwhHBky-YRlLIm_r3urJvVsnP8_jaI2mrR9JAxVER8nUS1YaAgY3EALw_wcB"
