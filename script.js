@@ -206,6 +206,16 @@ const projects2 = [
   }
 ];
 
+function updateActionURL() {
+  const subjectField = document.getElementById("email");
+  const bodyField = document.getElementById("message");
+  const subject = encodeURIComponent(subjectField.value);
+  const body = encodeURIComponent(bodyField.value);
+  const actionURL = `mailto:chiragmodi2001@gmail.com?subject=${subject}&body=${body}`;
+  const contactForm = document.getElementById("contact-form");
+  contactForm.action = actionURL;
+}
+
 const createCards = () => {
   projects.map((project) => {
     const projectCard = new Project({
