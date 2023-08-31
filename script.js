@@ -209,7 +209,6 @@ function updateActionURL(event) {
   const subject = encodeURIComponent(subjectField.value);
   const body = encodeURIComponent(bodyField.value);
   const actionURL = `mailto:chiragmodi2001@gmail.com?subject=${subject}&body=${body}`;
-  alert(actionURL)
   window.location.href = actionURL;
 }
 

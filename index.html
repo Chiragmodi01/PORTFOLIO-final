@@ -202,13 +202,10 @@
         <form
         id="contact-form"
         action="mailto:chiragmodi2001@gmail.com"
-
+        onsubmit="updateActionURL(event)"
         enctype="text/plain"
         method="post"
       >
-        <label for="name">Name</label>
-        <input required class="input-field" type="text" name="name" id="name" />
-
         <label for="subject">Subject</label>
         <input required class="input-field" type="text" name="subject" id="subject" />
 
