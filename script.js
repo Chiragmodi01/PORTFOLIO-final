@@ -145,45 +145,53 @@ class Project {
 
 const projects = [
   {
-    projectName: "InstaPound",
+    projectName: "Playway",
     projectDescription:
-      "InstaPound is an photo-gallery app where you can upload images publically.",
-    projectImage: "/images/projects/instapound.png",
-    codeLink: "https://github.com/Chiragmodi01/InstaPound",
-    demoLink: "https://instapound.netlify.app/"
+      "A Youtube like responsive video library with all sorts of functionalities.",
+    projectImage: "/images/projects/playway.png",
+    codeLink: "https://github.com/Chiragmodi01/videoLibrary-react",
+    demoLink: "https://playway.vercel.app/"
+  },
+  {
+    projectName: "Madré Linda fashion house",
+    projectDescription:
+      "A fully-fledged Ecommerce website of a luxury clothing brand",
+    projectImage: "/images/projects/madrelinda.png",
+    codeLink: "https://github.com/Chiragmodi01/MadreLinda-react",
+    demoLink: "https://madrelinda.netlify.app/"
   },
   {
     projectName: "Notero",
     projectDescription:
-      "Notero is an one-stop solution to manage your notes and tasks efficiently using markdown functionality",
+      "Google Keep like note taking service, one-stop solution to manage your notes and tasks",
     projectImage: "/images/projects/notero.png",
-    codeLink: "https://github.com/Chiragmodi01/Notero",
-    demoLink: "https://notero.netlify.app/"
+    codeLink: "https://github.com/Chiragmodi01/Notero-react",
+    demoLink: "https://notero-v1.netlify.app/"
   },
   {
-    projectName: "Vibez",
+    projectName: "Beluga UI",
     projectDescription:
-      "Vibez is chat web app where you just have to sign in through google and you can send messages.",
-    projectImage: "/images/projects/vibez.png",
-    codeLink: "https://github.com/Chiragmodi01/Vibez",
-    demoLink: "https://vibez-chat.netlify.app/"
+      "A component library, to help design your project faster and better. Built using Vanilla JavaScript and CSS.",
+    projectImage: "/images/projects/beluga.png",
+    codeLink: "https://github.com/Chiragmodi01/BelugaUi",
+    demoLink: "https://beluga-ui.netlify.app/"
   },
   {
-    projectName: "Tannuki",
+    projectName: "FlashTabs",
     projectDescription:
-      "Tannuki is an Anime listing application, consumes AniList api. Search and explore any anime",
-    projectImage: "/images/projects/tannuki.png",
-    codeLink: "https://github.com/Chiragmodi01/tannuki",
-    demoLink: "https://tannuki.netlify.app/"
+      "A chrome extension to give your browser's default homepage, clean and modern look with FlashTabs Dashboard.",
+    projectImage: "/images/projects/flashtabs.png",
+    codeLink: "https://github.com/Chiragmodi01/tab-extention",
+    demoLink: "https://chrome.google.com/webstore/detail/flashtabs/igeijfhnknbfodmpipaafagjhgddlefn?utm_source=google&utm_medium=cpc&utm_campaign=20282050520&utm_content=151103784475&utm_term=extensions%20chrome&gclid=Cj0KCQjw9MCnBhCYARIsAB1WQVUjOoAhnwhHBky-YRlLIm_r3urJvVsnP8_jaI2mrR9JAxVER8nUS1YaAgY3EALw_wcB"
   },
   {
-    projectName: "Penny Desk",
+    projectName: "Weather Forecast Dashboard",
     projectDescription:
-      "Penny desk is a chrome extension, helps you manage your budget while shopping.",
-    projectImage: "/images/projects/pennydesk.png",
-    codeLink: "https://github.com/Chiragmodi01/Penny-Desk",
-    demoLink: "https://github.com/Chiragmodi0so 1/Penny-Desk"
-  }
+      "Discover weather forecast with our user-friendly, responsive and intuitive dashboard.",
+    projectImage: "/images/projects/weatherdashboard.png",
+    codeLink: "https://github.com/Chiragmodi01/weather-forecast-dashboard",
+    demoLink: "https://weather-forecast-dashboard-cm.netlify.app/"
+  },
 ];
 
 const projects2 = [
@@ -194,54 +202,6 @@ const projects2 = [
     projectImage: "/images/projects/mypetcare.png",
     codeLink: "https://github.com/Chiragmodi01/My-Pet-Care",
     demoLink: "https://my-pet-care-cm.netlify.app/"
-  },
-  {
-    projectName: "Live Clock",
-    projectDescription:
-      "Live Clock is a simple and elegant clock that shows current time.",
-    projectImage: "/images/projects/clock.png",
-    codeLink: "https://codepen.io/chiragmodi01/pen/OJmVaOg",
-    demoLink: "https://codepen.io/chiragmodi01/pen/OJmVaOg"
-  },
-  {
-    projectName: "Flag emoji interpreter",
-    projectDescription:
-      "flag emoji interpreter helps understand which flag belongs to which conutry.",
-    projectImage: "/images/projects/flag.png",
-    codeLink: "https://github.com/Chiragmodi01/flag-emoji-interpreter",
-    demoLink: "https://iezkm.csb.app/"
-  },
-  {
-    projectName: "Form Validation",
-    projectDescription:
-      "Just a form validation component, that gives error if any field is empty or filled incorrectly.",
-    projectImage: "/images/projects/form.png",
-    codeLink: "https://codesandbox.io/s/winter-dew-fizuq",
-    demoLink: "https://fizuq.csb.app/"
-  },
-  {
-    projectName: "Faq accordion card",
-    projectDescription:
-      "A simple and sweet Faq accordion card, created with pure CSS",
-    projectImage: "/images/projects/faqcard.png",
-    codeLink: "https://github.com/Chiragmodi01/faq-accordion-card",
-    demoLink: "https://faq-accordion-chirag.netlify.app/"
-  },
-  {
-    projectName: "Speak to Pirates",
-    projectDescription:
-      "An application built with vanila Js and funtranslation API, helps translate to pirates language.",
-    projectImage: "/images/projects/pirate.png",
-    codeLink: "https://github.com/Chiragmodi01/speak-to-Pirates",
-    demoLink: "https://replit.com/@chirag01/CLI-1?embed=1&output=1"
-  },
-  {
-    projectName: "How well do you know me CLI",
-    projectDescription:
-      "A fun CLI Quiz App built using vanila Javascript and NodeJs.",
-    projectImage: "/images/projects/cli.png",
-    codeLink: "https://github.com/Chiragmodi01/CLI-01",
-    demoLink: "https://replit.com/@chirag01/CLI-1?embed=1&output=1"
   }
 ];
 
