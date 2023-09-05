@@ -601,6 +601,11 @@ h6 {
 }
 
 @media screen and (max-width: 1067px) {
+  .s2 .contact-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .marco {
     display: none;
   }
