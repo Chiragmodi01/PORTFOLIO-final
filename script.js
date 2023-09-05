@@ -20,7 +20,7 @@ function setTheme(mode) {
   if (mode === "purple") {
     document.getElementById("theme-style").href = "purple.css";
     document.getElementById("github").style.fill = "white";
-    document.getElementById("mail").style.fill = "black";
+    document.getElementById("mail").style.fill = "white";
   }
   localStorage.setItem("theme", mode);
 }
