@@ -601,6 +601,9 @@ h6 {
 }
 
 @media screen and (max-width: 1067px) {
+  .marco {
+    display: none;
+  }
   .contact-form-wrapper {
     grid-row-start: 1;
   }
