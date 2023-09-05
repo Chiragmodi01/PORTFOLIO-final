@@ -71,6 +71,7 @@ class Project {
 
     this.projectImage = this.createImageTag({
       className: "thumbnail",
+      style: "height: 180px; width: 319px;",
       src: projectImage,
       alt: projectName
     });
