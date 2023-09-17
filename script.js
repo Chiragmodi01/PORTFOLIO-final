@@ -213,13 +213,14 @@ function updateActionURL(event) {
   }).then(
       response => response.json()
   ).then((html) => {
-    submitBtn.innerHTML = 'Message Sent ✅'
+    submitBtn.value = 'Message Sent ✅'
     setTimeout(() => {
-      submitBtn.innerHTML = 'Send'
+      submitBtn.value = 'Send'
+      form.reset()
     }, 1000)
-    form.reset()
-    alert('success')
-  });
+  }).catch((err) => {
+    submitBtn.value = 'Error occured ⚠️'
+  })
 }
 
 const createCards = () => {
