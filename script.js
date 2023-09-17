@@ -205,11 +205,11 @@ const projects2 = [
 function updateActionURL(event) {
   event.preventDefault();
 
-  const subjectField = document.getElementById("subject"); // Corrected the ID
+  const emailField = document.getElementById("email"); // Corrected the ID
   const bodyField = document.getElementById("message");
-  const subject = encodeURIComponent(subjectField.value);
+  const email = encodeURIComponent(emailField.value);
   const body = encodeURIComponent(bodyField.value);
-  const actionURL = `mailto:chiragmodi2001@gmail.com?subject=${subject}&body=${body}`;
+  const actionURL = `mailto:chiragmodi2001@gmail.com?email=${email}&body=${body}`;
   window.location.href = actionURL;
 }
 
