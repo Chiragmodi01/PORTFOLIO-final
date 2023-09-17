@@ -209,7 +209,7 @@ function updateActionURL(event) {
 
     fetch(form.action, {
       method : "POST",
-      body: new FormData(document.getElementById("sheetdb-form")),
+      body: new FormData(document.getElementById("contact-form")),
   }).then(
       response => response.json()
   ).then((html) => {
