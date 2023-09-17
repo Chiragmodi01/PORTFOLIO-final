@@ -204,13 +204,22 @@ const projects2 = [
 
 function updateActionURL(event) {
   event.preventDefault();
+  const submitBtn = document.getElementById("submit-btn");
+  const form = getElementById("contact-form");
 
-  const emailField = document.getElementById("email"); // Corrected the ID
-  const bodyField = document.getElementById("message");
-  const email = encodeURIComponent(emailField.value);
-  const body = encodeURIComponent(bodyField.value);
-  const actionURL = `mailto:chiragmodi2001@gmail.com?email=${email}&body=${body}`;
-  window.location.href = actionURL;
+    fetch(form.action, {
+      method : "POST",
+      body: new FormData(document.getElementById("sheetdb-form")),
+  }).then(
+      response => response.json()
+  ).then((html) => {
+    submitBtn.innerText = 'Message Sent ✅'
+    setTimeout(() => {
+      submitBtn.innerText = 'Send'
+    }, 1000)
+    form.reset()
+    alert('success')
+  });
 }
 
 const createCards = () => {

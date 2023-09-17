@@ -233,15 +233,19 @@
 
         <form
         id="contact-form"
-        action="https://script.google.com/macros/s/AKfycbxmnwLzs99Dn_n2huncLcJs95GlR_32zbCjFGYNpCCgs8dumRn_3PpmLnKI9O5N7-Q/exec"
+        action="https://sheetdb.io/api/v1/guf6tt6l69072"
+        onsubmit="updateActionURL(event)"
         enctype="text/plain"
         method="post"
       >
+        <label for="name">Name</label>
+        <input required class="input-field" type="text" name="data[Name]" id="name" />
+
         <label for="email">Email</label>
-        <input required class="input-field" type="text" name="email" id="email" />
+        <input required class="input-field" type="text" name="data[Email]" id="email" />
 
         <label for="message">Message</label>
-        <textarea required class="input-field" name="message" id="message"></textarea>
+        <textarea required class="input-field" name="data[Message]" id="message"></textarea>
 
         <input id="submit-btn" type="submit" value="Send" />
         </form>
