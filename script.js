@@ -213,9 +213,9 @@ function updateActionURL(event) {
   }).then(
       response => response.json()
   ).then((html) => {
-    submitBtn.innerText = 'Message Sent ✅'
+    submitBtn.innerHTML = 'Message Sent ✅'
     setTimeout(() => {
-      submitBtn.innerText = 'Send'
+      submitBtn.innerHTML = 'Send'
     }, 1000)
     form.reset()
     alert('success')
