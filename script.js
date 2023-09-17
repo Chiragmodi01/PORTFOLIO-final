@@ -205,7 +205,7 @@ const projects2 = [
 function updateActionURL(event) {
   event.preventDefault();
   const submitBtn = document.getElementById("submit-btn");
-  const form = getElementById("contact-form");
+  const form = document.getElementById("contact-form");
 
     fetch(form.action, {
       method : "POST",
