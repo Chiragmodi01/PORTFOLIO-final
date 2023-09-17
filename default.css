@@ -393,6 +393,7 @@ h6 {
 #contact-form textarea {
 	min-height: 100px;
 	font-size: 14px;
+	resize: vertical;
 }
 
 .input-field {
