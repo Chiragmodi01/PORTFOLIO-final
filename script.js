@@ -174,12 +174,12 @@ const projects = [
     demoLink: "https://beluga-ui.netlify.app/"
   },
   {
-    projectName: "FlashTabs",
+    projectName: "PrimeChat",
     projectDescription:
-      "A chrome extension to give your browser's default homepage, clean and modern look.",
-    projectImage: "/images/projects/flashtabs.png",
-    codeLink: "https://github.com/Chiragmodi01/tab-extention",
-    demoLink: "https://chrome.google.com/webstore/detail/flashtabs/igeijfhnknbfodmpipaafagjhgddlefn?utm_source=google&utm_medium=cpc&utm_campaign=20282050520&utm_content=151103784475&utm_term=extensions%20chrome&gclid=Cj0KCQjw9MCnBhCYARIsAB1WQVUjOoAhnwhHBky-YRlLIm_r3urJvVsnP8_jaI2mrR9JAxVER8nUS1YaAgY3EALw_wcB"
+      "A real-time Instant messaging fullstack chat application, built using ReactJs, Express, NodeJS and Socket.io",
+    projectImage: "/images/projects/primechat.png",
+    codeLink: "https://github.com/Chiragmodi01/prime-chat",
+    demoLink: "https://primechat-cm.netlify.app/"
   },
   {
     projectName: "Weather Forecast Dashboard",
