@@ -297,9 +297,8 @@ h6 {
   grid-area: right-column;
   display: grid;
   align-content: center;
-
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
 
 #preview-shadow {
